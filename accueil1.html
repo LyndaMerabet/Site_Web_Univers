@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>L'Univers et ses Mystères</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+
+    <video autoplay muted loop id="video-bg" >
+       <source src="Ciel étoilé, Fond d'écran animé.webm" type="video/webm" >
+    </video>
+
+    <div id="header" >
+         <h1>Bienvenue sur le site d'Astronomie</h1>
+            <a href="connexion.php">Connexion/Inscription</a>
+            <a href="accueil1.html">Accueil</a>
+            <a href="qcm2.html">QCM?</a>
+            <a href="boutique.php">Boutique</a>
+            <a href="deconnexion.php">Se deconnecter</a>
+
+     </div>
+
+    <div id="left" >
+        <p>« Le système solaire, c'est le centre de notre galaxie, c'est là que se trouve le Soleil, entouré de huit planètes et de leurs lunes. C'est vraiment fascinant, non ? Cela nous donne un aperçu de notre place dans ce vaste univers ! 
+            <br>Envie d'en savoir plus sur les mystères du système solaire ? Clique sur les planètes ci-dessous pour explorer davantage !»</p>
+    </div>
+
+    <div id="right">
+        <img src="176084.jpeg" alt="système_solaire" usemap="#image_map">
+        
+        <map name="image_map">
+            <area shape="circle" alt="mercury"  href="planete.php?parametre1=1" coords="261,275,15" >
+            <area shape="circle" alt="venus"  href="planete.php?parametre1=2" coords="333,248,20" >
+            <area shape="circle" alt="terre"  href="planete.php?parametre1=3" coords="401,222,20" >
+            <area shape="circle" alt="mars"  href="planete.php?parametre1=4" coords="473,195,15">
+            <area shape="circle"  alt="jupiter" href="planete.php?parametre1=5" coords="535,172,20" >
+            <area shape="circle" alt="saturne"  href="planete.php?parametre1=6" coords="631,134,20" >
+            <area shape="circle" alt="uranus"  href="planete.php?parametre1=7" coords="753,93,20">
+            <area shape="circle" alt="neptune"  href="planete.php?parametre1=8" coords="854,60,20">
+        </map>
+     </div>
+   
+     
+
+
+</body>
+</html>
